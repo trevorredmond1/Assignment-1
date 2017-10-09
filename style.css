@@ -1,0 +1,145 @@
+/**** Globals ****/
+
+.buttonThumbs {
+    width:62.5px;
+    height:auto;
+    margin: 10px auto 10px auto;  
+}
+
+.imgBoxtop {
+    width:auto;
+    height:62.5px;
+    margin: 10px auto 10px auto;
+}
+
+.imgBoxbot {
+    width:160px;
+    height:62.5px;
+    margin: 10px auto 10px auto;
+}
+
+.imgBoxleft {
+    height:62.5px;
+    width:auto;
+    margin: 10px auto 10px auto;
+}
+
+.imgBoxright {
+    height:62.5px;
+    width:auto;
+    margin: 10px auto 10px auto;
+}
+
+/**** Top Bar ****/
+
+#controlTop {
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:20px;
+    margin:auto;
+    width:900px;
+    height:85px;
+}
+
+#buttonsTop {
+    display: inline-block;
+    width:900px;
+    height:85px;
+    
+}
+
+#imageTop {
+    width:450px;
+    height:154px;
+    background-image:url(img/1-1.png);
+    background-size:contain;
+    position:absolute;
+    top:500px;
+    left:730px;
+    margin:5px;
+    background-repeat: no-repeat;
+}
+
+/**** Bottom Bar ****/
+
+#controlBottom {
+    position:fixed;
+    left:0px;
+    right:0px;
+    margin:auto;
+    top:1160px;
+    width:900px;
+    height:85px;
+}
+
+#buttonsBottom {
+    display:inline-block;
+    width:900px;
+    height:85;
+}
+
+#imageBottom {
+    width:450px;
+    height:154px;
+    background-image:url(img/2-1.png);
+    background-size:contain;
+    position:absolute;
+    top:500px;
+    left:1200px;
+    margin:5px;
+    background-repeat:no-repeat;
+}
+
+/****Left Bar****/
+
+#controlLeft {
+    position:fixed;
+    left:35px;
+    top:230px;
+    width:85px;
+    height:900px;
+}
+
+#buttonsLeft {
+    width:85px;
+    height:900px;
+}
+
+#imageLeft {
+    width:470px;
+    height:164px;
+    background-image:url(img/3-1.png);
+    background-size:contain;
+    position:absolute;
+    top:500px;
+    left:280px;
+    margin:5px;
+    background-repeat:no-repeat;
+}
+
+/****Right Bar****/
+
+#controlRight {
+    position:fixed;
+    left:2360px;
+    top:230px;
+    width:85px;
+    height:900px;
+}
+
+#buttonsRight {
+    width:85px;
+    height:900px;
+}
+
+#imageRight {
+    width:450px;
+    height:154px;
+    background-image:url(img/4-1.png);
+    background-size:contain;
+    position:absolute;
+    top:500px;
+    left:1700px;
+    margin:5px;
+    background-repeat:no-repeat;
